@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"com.mohacarlos.ejercicio1","l":"ExcepcionFechaTest"},{"p":"com.mohacarlos.ejercicio1","l":"FechaTest"}];updateSearchResults();
