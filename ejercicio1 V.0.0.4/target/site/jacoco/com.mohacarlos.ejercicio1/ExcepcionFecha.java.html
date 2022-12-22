@@ -33,10 +33,13 @@ public class ExcepcionFecha extends Exception{
 <span class="fc" id="L33">                break;</span>
             case 7:
 <span class="fc" id="L35">                mensaje=&quot;Error, el valor del año debe ser un numero positivo&quot;;</span>
-                break;
+<span class="fc" id="L36">                break;</span>
+            default:
+<span class="nc" id="L38">            	mensaje=&quot;Error, fecha mal introducida&quot;;</span>
+            	break;
         }
          
-<span class="fc" id="L39">        return mensaje;</span>
+<span class="fc" id="L42">        return mensaje;</span>
          
     }
      

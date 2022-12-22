@@ -35,10 +35,8 @@ public class Fecha {
     }
 
     public void setMes(int mes) throws ExcepcionFecha {
-        if (mes == 4 || mes == 6 || mes == 9 || mes == 11) {
-            if (this.dia == 31) {
-                throw new ExcepcionFecha(3);
-            }
+        if ((mes == 4 || mes == 6 || mes == 9 || mes == 11) && this.dia == 31) {
+                throw new ExcepcionFecha(3);           
         }
         this.mes = mes;
     }
@@ -53,7 +51,7 @@ public class Fecha {
 
     public boolean determinarAñoBisiesto() {
         boolean visiesto;
-        if ((this.getAño() % 4 == 0 && this.getAño() % 100 != 0) || this.getAño() % 400 == 0) {
+        if (this.getAño() % 4 == 0 && this.getAño() % 100 != 0 || this.getAño() % 400 == 0) {
             visiesto = true;
         } else {
             visiesto = false;

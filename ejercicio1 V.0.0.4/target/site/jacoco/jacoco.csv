@@ -1,3 +1,3 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-ejercicio1,com.mohacarlos.ejercicio1,Fecha,5,103,4,22,1,26,4,17,0,8
-ejercicio1,com.mohacarlos.ejercicio1,ExcepcionFecha,0,33,1,7,0,19,1,8,0,2
+ejercicio1,com.mohacarlos.ejercicio1,Fecha,5,103,4,22,1,25,4,17,0,8
+ejercicio1,com.mohacarlos.ejercicio1,ExcepcionFecha,2,34,1,7,1,20,1,8,0,2

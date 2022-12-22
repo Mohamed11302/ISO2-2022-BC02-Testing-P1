@@ -34,6 +34,9 @@ public class ExcepcionFecha extends Exception{
             case 7:
                 mensaje="Error, el valor del año debe ser un numero positivo";
                 break;
+            default:
+            	mensaje="Error, fecha mal introducida";
+            	break;
         }
          
         return mensaje;
